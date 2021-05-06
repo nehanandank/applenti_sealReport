@@ -1,0 +1,68 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Applenti</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        function getUsersReport() {
+           var f = $('<form method="post" target="Companyiframe" />').appendTo("body");
+            f.attr('action', "https://applenti-sealreports-dev.azurewebsites.net/SWExecuteReport");
+            f.append($('<input />').attr('name', 'path').attr('value', "\\Users.srex"));  //the report path, if empty the report definition must be specified
+            f.append($('<input />').attr('name', 'render').attr('value', true)); //true if the report can be rendered (this option is used only if report definition is specified)
+            f.append($('<input />').attr('name','use_default_restrictions').attr('value',true));
+            f.children('input').attr('type', 'hidden');
+            f.submit();
+        }
+
+        function getIncidentsReport() {
+            var f = $('<form method="post" target="Companyiframe" />').appendTo('body');
+            f.attr('action', "https://applenti-sealreports-dev.azurewebsites.net/" + "SWExecuteReport");
+            f.append($('<input/>').attr('name', 'path').attr('value', '\\Incidents.srex'));
+            f.append($('<input />').attr('name', 'render').attr('value', 'true'));
+            //f.append($('<input />').attr('name', 'format').attr('value', "html"));
+            f.append($('<input />').attr('name','use_default_restrictions').attr('value',true));
+            f.children('input').attr('type', 'hidden');
+            f.submit();
+        }
+
+        function login() {
+            var response = $.post("https://applenti-sealreports-dev.azurewebsites.net/SWILogin", {
+                user: "", // The user name
+                password: "", // The password
+                token: "" // Optional token that can be used in the Security Provider Script
+            }).done(function (response) {
+                if (!response.error) { }
+            })
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <div style="float:leftt;padding-top:20px;padding-left:80px">
+        <button type="button" class="btn btn-info" onclick="login()">Login</button>
+        <button type="button" class="btn btn-info" onclick="getUsersReport()">Users</button>
+        <button type="button" class="btn btn-info" onclick="getIncidentsReport()">Incidents</button>
+    </div>
+    <iframe name="loginresponse" style="width:100%; height: 100px;display:none" align="middle" scrolling="yes"
+        frameBorder="0">
+    </iframe>
+    <iframe name="Companyiframe" id="Companyiframe" style="width:100%; height: 600px;" align="middle" scrolling="yes"
+        frameBorder="0" allow="encrypted-media">
+    </iframe>
+    
+</body>
+
+</html>
