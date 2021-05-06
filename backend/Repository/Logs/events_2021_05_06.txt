@@ -1,0 +1,149 @@
+**********
+5/6/2021 2:47:24 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 2:48:37 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 2:57:13 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:08:21 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:12:22 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:12:22 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:20:07 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:20:30 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:20:31 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:20:53 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:21:00 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:21:09 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:21:37 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:21:37 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:21:41 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:21:56 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:24:00 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:24:01 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:31:42 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:31:58 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:34:03 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:34:14 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:37:39 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:37:39 AM Error
+Error opening database connection:
+Cannot open database "Audit" requested by the login. The login failed.
+Login failed for user 'DESKTOP-OG6B5VH\sumap'.
+
+**********
+5/6/2021 3:54:49 AM Error
+Error opening database connection:
+A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No process is on the other end of the pipe.)
+

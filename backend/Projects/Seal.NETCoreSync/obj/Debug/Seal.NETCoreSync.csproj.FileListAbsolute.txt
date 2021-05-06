@@ -1,0 +1,6 @@
+C:\Users\sumap\source\repos\ariacom\Seal-Report\Projects\Seal.NETCoreSync\bin\Debug\Seal.NETCoreSync.exe.config
+C:\Users\sumap\source\repos\ariacom\Seal-Report\Projects\Seal.NETCoreSync\bin\Debug\Seal.NETCoreSync.exe
+C:\Users\sumap\source\repos\ariacom\Seal-Report\Projects\Seal.NETCoreSync\bin\Debug\Seal.NETCoreSync.pdb
+C:\Users\sumap\source\repos\ariacom\Seal-Report\Projects\Seal.NETCoreSync\obj\Debug\Seal.NETCoreSync.csproj.CoreCompileInputs.cache
+C:\Users\sumap\source\repos\ariacom\Seal-Report\Projects\Seal.NETCoreSync\obj\Debug\Seal.NETCoreSync.exe
+C:\Users\sumap\source\repos\ariacom\Seal-Report\Projects\Seal.NETCoreSync\obj\Debug\Seal.NETCoreSync.pdb

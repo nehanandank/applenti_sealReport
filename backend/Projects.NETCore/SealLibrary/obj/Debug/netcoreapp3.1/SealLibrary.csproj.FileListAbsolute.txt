@@ -1,0 +1,9 @@
+C:\Users\sumap\Source\Repos\ariacom\Seal-Report\Projects.NETCore\SealLibrary\bin\Debug\netcoreapp3.1\SealLibrary.deps.json
+C:\Users\sumap\Source\Repos\ariacom\Seal-Report\Projects.NETCore\SealLibrary\bin\Debug\netcoreapp3.1\SealLibrary.dll
+C:\Users\sumap\Source\Repos\ariacom\Seal-Report\Projects.NETCore\SealLibrary\bin\Debug\netcoreapp3.1\SealLibrary.pdb
+C:\Users\sumap\Source\Repos\ariacom\Seal-Report\Projects.NETCore\SealLibrary\obj\Debug\netcoreapp3.1\SealLibrary.csprojAssemblyReference.cache
+C:\Users\sumap\Source\Repos\ariacom\Seal-Report\Projects.NETCore\SealLibrary\obj\Debug\netcoreapp3.1\SealLibrary.AssemblyInfoInputs.cache
+C:\Users\sumap\Source\Repos\ariacom\Seal-Report\Projects.NETCore\SealLibrary\obj\Debug\netcoreapp3.1\SealLibrary.AssemblyInfo.cs
+C:\Users\sumap\Source\Repos\ariacom\Seal-Report\Projects.NETCore\SealLibrary\obj\Debug\netcoreapp3.1\SealLibrary.csproj.CoreCompileInputs.cache
+C:\Users\sumap\Source\Repos\ariacom\Seal-Report\Projects.NETCore\SealLibrary\obj\Debug\netcoreapp3.1\SealLibrary.dll
+C:\Users\sumap\Source\Repos\ariacom\Seal-Report\Projects.NETCore\SealLibrary\obj\Debug\netcoreapp3.1\SealLibrary.pdb

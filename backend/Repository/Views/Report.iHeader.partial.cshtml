@@ -1,0 +1,44 @@
+﻿@using Seal.Model
+@{
+    ReportView view = Model;
+    Report report = view.Report;
+    Repository repository = report.Repository;
+    var configuration = repository.Configuration;
+}
+
+@if (report.GenerateHTMLDisplay || !report.PdfConversion)
+{
+    <nav id="bar_top" class='navbar navbar-default navbar-fixed-top' style='transition:top 0.3s;'>
+        <div class="container@(view.GetBoolValue("container_fluid") ? "-fluid" : "")">
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">@report.Translate("Toggle navigation")</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+             
+                <a id="nav_button" style="width:1500px;text-align:left;font-size:1.5vw;background-color:green;color:white;" href="#" class="navbar-brand">@(!configuration.HasLogo ? configuration.WebProductName + " - " : "")@report.ExecutionName</a><span id="nav_badge" class="badge navbar-left hidden">@report.Translate("Nav")</span>
+            </div>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                @if (report.GenerateHTMLDisplay)
+                {
+                    <button id="execute_button" class="btn btn-success navbar-btn navbar-right">@report.Translate("Execute")</button>
+                    <button id="restrictions_button" type="button" class="btn btn-info navbar-btn navbar-right" title="@report.Translate("Show/Hide Restrictions")">
+                        <span class="glyphicon glyphicon-filter"></span>
+                    </button>
+                }
+                @if (report.GenerateHTMLDisplay || !report.PrintLayout)
+                {
+                    <ul class="nav navbar-nav navbar-right">                      
+                       
+                           
+                                <li><a id="CSVResult" class="result_item" href="#"><img src="@report.AttachImageFile(configuration.LogoName)" /></a></li>                                
+                          
+                    </ul>
+                }
+            </div>
+        </div>
+    </nav>
+}
+
