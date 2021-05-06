@@ -17,6 +17,7 @@
     <script type="text/javascript">
         function getUsersReport() {
            var f = $('<form method="post" target="Companyiframe" />').appendTo("body");
+            //Deployed app service path
             f.attr('action', "https://applenti-sealreports-dev.azurewebsites.net/SWExecuteReport");
             f.append($('<input />').attr('name', 'path').attr('value', "\\Users.srex"));  //the report path, if empty the report definition must be specified
             f.append($('<input />').attr('name', 'render').attr('value', true)); //true if the report can be rendered (this option is used only if report definition is specified)
@@ -27,7 +28,8 @@
 
         function getIncidentsReport() {
             var f = $('<form method="post" target="Companyiframe" />').appendTo('body');
-            f.attr('action', "https://applenti-sealreports-dev.azurewebsites.net/" + "SWExecuteReport");
+            //Deployed app service path
+            f.attr('action', "https://applenti-sealreports-dev.azurewebsites.net/SWExecuteReport");
             f.append($('<input/>').attr('name', 'path').attr('value', '\\Incidents.srex'));
             f.append($('<input />').attr('name', 'render').attr('value', 'true'));
             //f.append($('<input />').attr('name', 'format').attr('value', "html"));
@@ -37,6 +39,7 @@
         }
 
         function login() {
+            //Deployed app service path
             var response = $.post("https://applenti-sealreports-dev.azurewebsites.net/SWILogin", {
                 user: "", // The user name
                 password: "", // The password
