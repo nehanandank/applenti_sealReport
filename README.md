@@ -3,8 +3,8 @@
 #FrontEnd
 1. Use the html to view reports in iframe
 2. Currently "Users" and "Incidents" reports are already deployed to https://applenti-sealreports-dev.azurewebsites.net/ - could be changed to your service
-3. Open the page in browser
-4. Each button on click executes and fetches reports
+3. Open the frontend/hostingstart.html page in browser
+4. Each button on click executes and fetches reports as specified
 5. Multiple options are provided for filtering and aggregation 
 6. Export csv option should be available to download report
 
